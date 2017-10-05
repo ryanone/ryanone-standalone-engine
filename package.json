@@ -1,6 +1,6 @@
 {
   "name": "ryanone-standalone-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "ember-cli-babel": "^6.3.0",
-    "ember-cli-htmlbars": "^2.0.1"
+    "ember-cli-htmlbars": "^2.0.1",
+    "ember-models-table": "^1.13.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -37,7 +38,6 @@
     "ember-engines": "^0.5.14",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
-    "ember-models-table": "^1.13.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.15.0",
     "loader.js": "^4.2.3"
